@@ -1,0 +1,10 @@
+import math
+
+angle1 = input("Enter the angle: ")
+angle1 = float(angle1)
+opp = input("Enter the opp side: ")
+opp = float(opp)
+answer = math.tan(math.radians(angle1))
+answer = float(answer)
+adj = answer * opp
+print(adj)
